@@ -1,0 +1,33 @@
+"""
+marks = [90,25,67,45,80]
+
+number = 0 
+for mark in marks:
+  number = number+1
+  if(mark >=60):
+    print("합격")
+  else:
+    print("불합격")
+"""
+"""
+marks = [90,25,67,45,80]
+number = 0
+for mark in marks:
+  number = number+1  
+  if(mark<60):
+    continue
+  print("ㅊㅊ")
+"""
+"""
+sum = 0 
+for i in range(1,101):
+   sum = sum+i
+   print(sum)
+"""
+#1부터 50까지 숫자중에
+#20이상 30미만을 제외한 나머지를 출력
+i = 1
+for i in range(1,51):
+  if i>=20 and i<30:
+    continue
+  print(i)
